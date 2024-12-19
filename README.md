@@ -1,0 +1,3 @@
+# VBScript Implicit Type Coercion Bug
+
+This repository demonstrates a subtle bug in VBScript related to implicit type coercion during comparisons.  The `f` function compares two numeric values, but unexpected behavior might arise if the input values are of different types or if type coercion leads to unintended outcomes.  The solution shows a more robust approach to comparison.  Understanding this behavior is crucial when working with legacy VBScript code or if interfacing with external systems where data type consistency might not be guaranteed.
